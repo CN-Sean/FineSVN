@@ -8,7 +8,7 @@
 
 #import "FileNode.h"
 
-#define fPROPERTIES @[@"NSURLNameKey",@"NSURLEffectiveIconKey", @"NSURLCreationDateKey", @"NSURLContentModificationDateKey", @"NSURLIsDirectoryKey"]
+#define fPROPERTIES @[@"NSURLFileSizeKey",@"NSURLNameKey",@"NSURLEffectiveIconKey", @"NSURLCreationDateKey", @"NSURLContentModificationDateKey", @"NSURLIsDirectoryKey",@"NSURLIsHiddenKey"]
 
 @implementation FileNode
 
@@ -23,6 +23,10 @@
         self.creationDate = options[@"NSURLCreationDateKey"];
         self.modificationDate = options[@"NSURLContentModificationDateKey"];
         self.isDirectory = [options[@"NSURLIsDirectoryKey"] boolValue];
+        self.isHidden = [options[@"NSURLIsHiddenKey"] boolValue];
+        if(options[@"NSURLFileSizeKey"]){
+            self.size = [options[@"NSURLFileSizeKey"] stringValue];
+        }
     }
     return self;
 }

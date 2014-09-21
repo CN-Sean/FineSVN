@@ -75,8 +75,12 @@
 #pragma mark - NSOutlineView Delegate and DataSource Methods
 - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item
 {
-    if(rootNode){
-        return [rootNode.children count];
+    FileNode *node = item;
+    if(node == nil){
+        node = rootNode;
+    }
+    if(node.children){
+        return [node.children count];
     }
     return 0;
 }
@@ -100,24 +104,33 @@
 {
     FileNode *node = item;
     if([tableColumn.identifier isEqualToString:fNAMECOL]){
+        NSCell *cell = [tableColumn dataCell];
+        [node.icon setSize:NSMakeSize(16, 16)];
+        [cell setImage:node.icon];
         return node.name;
     }else if([tableColumn.identifier isEqualToString:fCREATIONDATECOL]){
         return [DateUtils stringFromDate:node.creationDate withFormat:@"yyyy-MM-dd HH:mm"];
     }else if([tableColumn.identifier isEqualToString:fMODIFICATIONDATECOL]){
         return [DateUtils stringFromDate:node.modificationDate withFormat:@"yyyy-MM-dd HH:mm"];
+    }else if([tableColumn.identifier isEqualToString:fSIZECOL]){
+        return node.size;
     }else{
-        return  @"-empty-";
+        return @"";
     }
 }
 
-- (void)outlineView:(NSOutlineView *)outlineView willDisplayCell:(NSCell*)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item
+- (BOOL)outlineView:(NSOutlineView *)outlineView shouldExpandItem:(id)item
 {
     FileNode *node = item;
-    if([tableColumn.identifier isEqualToString:fNAMECOL]){
-        [node.icon setSize:NSMakeSize(16, 16)];
-        [cell setImage:node.icon];
-        [cell setTitle:node.name];
+    if(node.children == nil){
+        [node loadChildNodes];
     }
+    return YES;
+}
+
+- (BOOL)outlineView:(NSOutlineView *)outlineView shouldCollapseItem:(id)item
+{
+    return YES;
 }
 
 - (BOOL)outlineView:(NSOutlineView *)outlineView shouldEditTableColumn:(NSTableColumn *)tableColumn item:(id)item
