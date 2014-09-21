@@ -32,7 +32,7 @@
     NSMutableArray *children = [NSMutableArray array];
     NSFileManager *fm = [NSFileManager defaultManager];
     if([fm fileExistsAtPath:self.stringPath]){
-        NSArray *childUrls = [fm contentsOfDirectoryAtURL:self.urlPath includingPropertiesForKeys:fPROPERTIES options:@{} error:nil];
+        NSArray *childUrls = [fm contentsOfDirectoryAtURL:self.urlPath includingPropertiesForKeys:fPROPERTIES options:NSDirectoryEnumerationSkipsSubdirectoryDescendants error:nil];
         if(childUrls){
             for(NSURL *url in childUrls){
                 if([fm fileExistsAtPath:[url path]]){
