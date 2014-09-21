@@ -55,6 +55,7 @@
                               NSArray *fileURLs = [openPanel URLs];
                               [self addDirPaths:fileURLs];
                               [dirSourceListView reloadData];
+                              [dirSourceListView selectRowIndexes:[NSIndexSet indexSetWithIndex:[dirList count]-1] byExtendingSelection:NO];
                           }
                       }];
 }
@@ -139,10 +140,13 @@
 
 - (BOOL)tableView:(NSTableView *)tableView shouldSelectRow:(NSInteger)row
 {
-    rootNode = [[FileNode alloc] initWithURL:dirList[row]];
+    return YES;
+}
+
+- (void)tableViewSelectionDidChange:(NSNotification *)aNotification{
+    rootNode = [[FileNode alloc] initWithURL:dirList[dirSourceListView.selectedRow]];
     [rootNode loadChildNodes];
     [dirDetailView reloadData];
-    return YES;
 }
 
 - (BOOL)tableView:(NSTableView *)tableView shouldEditTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
