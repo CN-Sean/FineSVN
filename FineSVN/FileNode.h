@@ -12,14 +12,15 @@
 
 - (id)initWithURL: (NSURL *)url;
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) NSDate *creationDate;
 @property (nonatomic, strong) NSDate *modificationDate;
 @property (nonatomic, strong) NSImage *icon;
-@property (nonatomic) long size;
+@property (nonatomic, copy) NSString *size;
 @property (nonatomic, strong) NSMutableArray *children;
 @property (nonatomic, strong) NSString *stringPath;
 @property (nonatomic, strong) NSURL *urlPath;
+@property (nonatomic) BOOL isHidden;
 @property (nonatomic) BOOL isDirectory;
 
 - (void)loadChildNodes;

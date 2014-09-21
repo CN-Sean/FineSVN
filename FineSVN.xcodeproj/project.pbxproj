@@ -14,6 +14,7 @@
 		0312976C19CD86B50026FA99 /* FineSVNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312976B19CD86B50026FA99 /* FineSVNTests.m */; };
 		03B1BCE719CDE480007765E2 /* FileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B1BCE619CDE480007765E2 /* FileNode.m */; };
 		744B0323F077DAE3ED537C2E /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B06747F58CF8C664B9108 /* DateUtils.m */; };
+		744B0C551E5FDFC615DFD8C5 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B0CF549E1F93C5DC6B961 /* ImageAndTextCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03B1BCE519CDE480007765E2 /* FileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileNode.h; sourceTree = "<group>"; };
 		03B1BCE619CDE480007765E2 /* FileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileNode.m; sourceTree = "<group>"; };
 		744B06747F58CF8C664B9108 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		744B097AA6DBB2B543B67C28 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		744B0CF549E1F93C5DC6B961 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
 		744B0E5F468FD9F26115D735 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +94,8 @@
 				0312975519CD86B50026FA99 /* Supporting Files */,
 				744B06747F58CF8C664B9108 /* DateUtils.m */,
 				744B0E5F468FD9F26115D735 /* DateUtils.h */,
+				744B0CF549E1F93C5DC6B961 /* ImageAndTextCell.m */,
+				744B097AA6DBB2B543B67C28 /* ImageAndTextCell.h */,
 			);
 			path = FineSVN;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 				0312975B19CD86B50026FA99 /* AppDelegate.m in Sources */,
 				0312975819CD86B50026FA99 /* main.m in Sources */,
 				744B0323F077DAE3ED537C2E /* DateUtils.m in Sources */,
+				744B0C551E5FDFC615DFD8C5 /* ImageAndTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,11 @@
 #import "AppDelegate.h"
 #import "DateUtils.h"
 
+#define fNAMECOL @"_filename_"  //文件名
+#define fSIZECOL @"_filesize_"  //文件大小
+#define fCREATIONDATECOL @"_creationdate_"  //创建日期
+#define fMODIFICATIONDATECOL @"_modificationdate_"  //修改日期
+
 @interface AppDelegate ()
 {
     
@@ -93,14 +98,24 @@
 - (id)outlineView:(NSOutlineView *)outlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item
 {
     FileNode *node = item;
-    if([tableColumn.identifier isEqualToString:@"_filename_"]){
+    if([tableColumn.identifier isEqualToString:fNAMECOL]){
         return node.name;
-    }else if([tableColumn.identifier isEqualToString:@"_creationdate_"]){
+    }else if([tableColumn.identifier isEqualToString:fCREATIONDATECOL]){
         return [DateUtils stringFromDate:node.creationDate withFormat:@"yyyy-MM-dd HH:mm"];
-    }else if([tableColumn.identifier isEqualToString:@"_modificationdate_"]){
+    }else if([tableColumn.identifier isEqualToString:fMODIFICATIONDATECOL]){
         return [DateUtils stringFromDate:node.modificationDate withFormat:@"yyyy-MM-dd HH:mm"];
     }else{
-        return @"-empty-";
+        return  @"-empty-";
+    }
+}
+
+- (void)outlineView:(NSOutlineView *)outlineView willDisplayCell:(NSCell*)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item
+{
+    FileNode *node = item;
+    if([tableColumn.identifier isEqualToString:fNAMECOL]){
+        [node.icon setSize:NSMakeSize(16, 16)];
+        [cell setImage:node.icon];
+        [cell setTitle:node.name];
     }
 }
 
