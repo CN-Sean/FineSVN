@@ -15,6 +15,8 @@
     IBOutlet NSOutlineView *dirDetailView;
     NSMutableArray *dirList;
     FileNode *rootNode;
+    IBOutlet NSButton *updateBtn;
+    IBOutlet NSTextField *logTextView;
 }
 
 @end

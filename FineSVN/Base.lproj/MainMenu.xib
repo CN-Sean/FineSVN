@@ -17,6 +17,9 @@
                 <outlet property="addDirPathBtn" destination="JjP-sS-WHl" id="e8F-aL-NvO"/>
                 <outlet property="dirDetailView" destination="55n-wt-lHi" id="UUx-sj-ak2"/>
                 <outlet property="dirSourceListView" destination="RKa-D7-odd" id="cQ5-i7-xsL"/>
+                <outlet property="logTextView" destination="zqf-3M-Css" id="McQ-3p-9cG"/>
+                <outlet property="refreshBtn" destination="FpH-Ar-sp2" id="QJs-Hr-Y5G"/>
+                <outlet property="updateBtn" destination="FpH-Ar-sp2" id="AVl-l8-oGD"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -865,35 +868,15 @@
                                 <rect key="frame" x="0.0" y="403" width="750" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <subviews>
-                                    <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="1vI-QE-kpR">
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="zqf-3M-Css">
                                         <rect key="frame" x="0.0" y="0.0" width="750" height="97"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <clipView key="contentView" id="bkM-Gt-Ny9">
-                                            <rect key="frame" x="1" y="1" width="223" height="133"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <subviews>
-                                                <textView editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="5kN-wC-ZPX">
-                                                    <rect key="frame" x="0.0" y="0.0" width="223" height="133"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <size key="minSize" width="748" height="95"/>
-                                                    <size key="maxSize" width="750" height="10000000"/>
-                                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                    <size key="minSize" width="748" height="95"/>
-                                                    <size key="maxSize" width="750" height="10000000"/>
-                                                </textView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </clipView>
-                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="BHN-yN-8ui">
-                                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </scroller>
-                                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="OfZ-um-YuO">
-                                            <rect key="frame" x="224" y="1" width="15" height="133"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </scroller>
-                                    </scrollView>
+                                        <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" allowsEditingTextAttributes="YES" id="0Yr-4Z-bCl">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                 </subviews>
                             </customView>
                         </subviews>
@@ -902,6 +885,17 @@
                             <real value="250"/>
                         </holdingPriorities>
                     </splitView>
+                    <button id="FpH-Ar-sp2">
+                        <rect key="frame" x="80" y="543" width="50" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="square" title="更新" bezelStyle="shadowlessSquare" image="NSRefreshTemplate" imagePosition="above" alignment="center" state="on" borderStyle="border" inset="2" id="6Ek-RS-vMw">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="updateBtnClick:" target="Voe-Tx-rLC" id="XYc-Zo-jeE"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
             <point key="canvasLocation" x="474" y="457"/>
@@ -909,5 +903,6 @@
     </objects>
     <resources>
         <image name="NSAddTemplate" width="11" height="11"/>
+        <image name="NSRefreshTemplate" width="11" height="15"/>
     </resources>
 </document>
