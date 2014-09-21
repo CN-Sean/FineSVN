@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0cca31fa-d8d5-45c2-a5e2-2a2846b11048" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+>>>>>>> FETCH_HEAD
 =======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
 >>>>>>> FETCH_HEAD
@@ -30,6 +34,7 @@
   <component name="FileEditorManager">
     <leaf>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="ImageAndTextCell.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/ImageAndTextCell.m">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +51,16 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3339">
               <caret line="16" column="34" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="AppDelegate.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FineSVN/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.45012468" vertical-offset="1949" max-vertical-offset="3024">
               <caret line="110" column="23" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding>
                 <element signature="e#128#151#0" expanded="true" />
@@ -60,23 +70,30 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="NSTableView.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="9568" max-vertical-offset="18627">
               <caret line="470" column="0" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="69" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="Info.plist" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVNTests/Info.plist">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="NSCell.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSCell.h">
@@ -84,17 +101,23 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="3772" max-vertical-offset="9744">
               <caret line="193" column="8" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="FileNode.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/FileNode.m">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1134">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="NSOutlineView.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOutlineView.h">
@@ -102,17 +125,23 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="4336" max-vertical-offset="10143">
               <caret line="227" column="39" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="DateUtils.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/DateUtils.m">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1533">
               <caret line="46" column="44" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="ImageAndTextCell.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/ImageAndTextCell.h">
@@ -120,11 +149,16 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
               <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="NSCalendar.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="3408" max-vertical-offset="10836">
               <caret line="178" column="12" selection-start-line="178" selection-start-column="12" selection-end-line="178" selection-end-column="12" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding />
             </state>
@@ -132,17 +166,23 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="Info.plist" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVNTests/Info.plist">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="DateUtils.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/DateUtils.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1533">
               <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding />
             </state>
@@ -152,6 +192,7 @@
       <file leaf-file-name="FileNode.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/FileNode.h">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
@@ -169,11 +210,16 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="693">
               <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
 >>>>>>> FETCH_HEAD
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="693">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+>>>>>>> FETCH_HEAD
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="NSUserNotification.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUserNotification.h">
@@ -181,11 +227,16 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3255">
               <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
 =======
+=======
+>>>>>>> FETCH_HEAD
       <file leaf-file-name="AppDelegate.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FineSVN/AppDelegate.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
               <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
               <folding />
             </state>
@@ -201,11 +252,14 @@
   </component>
   <component name="Git.Settings">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="sean" />
       </list>
     </option>
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -214,6 +268,7 @@
     <option name="changedFiles">
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/FineSVN/FileNode.m" />
         <option value="$PROJECT_DIR$/FineSVN/DateUtils.h" />
         <option value="$PROJECT_DIR$/FineSVN/DateUtils.m" />
@@ -221,10 +276,15 @@
         <option value="$PROJECT_DIR$/FineSVN/ImageAndTextCell.m" />
         <option value="$PROJECT_DIR$/FineSVN/FileNode.h" />
 =======
+=======
+>>>>>>> FETCH_HEAD
         <option value="$PROJECT_DIR$/FineSVN/FileNode.h" />
         <option value="$PROJECT_DIR$/FineSVN/FileNode.m" />
         <option value="$PROJECT_DIR$/FineSVN/DateUtils.h" />
         <option value="$PROJECT_DIR$/FineSVN/DateUtils.m" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
         <option value="$PROJECT_DIR$/FineSVN/AppDelegate.m" />
       </list>
@@ -392,6 +452,7 @@
       <updated>1411275998318</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00004" summary="FileSystem">
       <created>1411282651751</created>
       <option name="number" value="00004" />
@@ -399,6 +460,9 @@
       <updated>1411282651751</updated>
     </task>
     <option name="localTasksCounter" value="5" />
+=======
+    <option name="localTasksCounter" value="4" />
+>>>>>>> FETCH_HEAD
 =======
     <option name="localTasksCounter" value="4" />
 >>>>>>> FETCH_HEAD
@@ -413,7 +477,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3120482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> FETCH_HEAD
 =======
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 >>>>>>> FETCH_HEAD
@@ -451,6 +519,7 @@
     </option>
     <MESSAGE value="sss" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <MESSAGE value="FileSystem" />
     <option name="LAST_COMMIT_MESSAGE" value="FileSystem" />
   </component>
@@ -458,11 +527,16 @@
     <breakpoint-manager>
       <option name="time" value="21" />
 =======
+=======
+>>>>>>> FETCH_HEAD
     <option name="LAST_COMMIT_MESSAGE" value="sss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="6" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
     </breakpoint-manager>
   </component>
@@ -500,7 +574,10 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> FETCH_HEAD
     <entry file="file://$PROJECT_DIR$/FineSVN/FileNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="693">
@@ -509,6 +586,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -534,6 +614,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSImage.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,6 +642,8 @@
     </entry>
 =======
 >>>>>>> FETCH_HEAD
+=======
+>>>>>>> FETCH_HEAD
     <entry file="file://$PROJECT_DIR$/FineSVNTests/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
@@ -569,6 +652,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSCell.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -591,10 +675,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4336" max-vertical-offset="10143">
           <caret line="227" column="39" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
 =======
+=======
+>>>>>>> FETCH_HEAD
     <entry file="file://$PROJECT_DIR$/FineSVN/FileNode.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1134">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
           <folding />
         </state>
@@ -603,8 +692,13 @@
     <entry file="file://$PROJECT_DIR$/FineSVN/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3339">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+=======
+        <state vertical-scroll-proportion="0.45012468" vertical-offset="1949" max-vertical-offset="3024">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+>>>>>>> FETCH_HEAD
 =======
         <state vertical-scroll-proportion="0.45012468" vertical-offset="1949" max-vertical-offset="3024">
           <caret line="110" column="23" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
@@ -615,6 +709,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FineSVN/ImageAndTextCell.m">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,6 +743,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
   </component>
