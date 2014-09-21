@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D580BEB-1A3F-4CDD-8CB0-7F346BF18041</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FineSVN</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D18E5BBDB26F7276A5CD8DB05551D5C8622BFF44</key>
+		<string>https://github.com/CN-Sean/FineSVN.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FineSVN.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D18E5BBDB26F7276A5CD8DB05551D5C8622BFF44</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CN-Sean/FineSVN.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D18E5BBDB26F7276A5CD8DB05551D5C8622BFF44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D18E5BBDB26F7276A5CD8DB05551D5C8622BFF44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FineSVN</string>
+		</dict>
+	</array>
+</dict>
+</plist>
